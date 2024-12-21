@@ -1,17 +1,28 @@
 {
-  "name": "node-app",
-  "description": "Nodeapp for CICD test",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "express": "4.17.1"
-  },
-  "devDependencies": {
-    "mocha": "9.1.1",
-    "supertest": "6.1.6"
-  },
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "Research about a person",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/mocha ./test/test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rat9615/simple-nodejs-app.git"
+  },
+  "author": "Rohan R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rat9615/simple-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/rat9615/simple-nodejs-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "wiki-infobox-parser": "^0.1.11"
   }
 }
